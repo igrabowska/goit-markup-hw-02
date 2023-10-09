@@ -17,17 +17,29 @@ body {
   font-weight: 800px;
 font-size: 18px;
 line-height: 1.17;
-text-decoration: none;}
+text-decoration: none;
+color: var(--dark-brand-color);}
 
+span {color: var(--light-brand-color);}
+
+.logo-footer{font-family:Raleway; font-weight: 800px;
+  font-size: 18px;
+  line-height: 1.17;
+  color: var(--secondary-background);
+  text-decoration: none; 
+  letter-spacing:0.03em;}
   .menu a{text-decoration: none;
   color: var(--dark-brand-color);}
 
   .menu-list {list-style: none;
   font-weight: 500px;}
-  
-.address-block {list-style: none;}
-.address-list a {text-decoration: none; 
-color:var(--body-text-color);}
+
+  .menu-list a:hover{color:var(--light-brand-color);}
+
+.address-list a {list-style: none; text-decoration: none;
+color:var(--body-text-color); }
+
+.address-list a:hover{color: var(--light-brand-color);}
 
   .hero-baner {background-color: var(--dark-brand-color);
     color: var(--main-background);
@@ -61,9 +73,16 @@ height: 312px;}
 .footer-text {color: var(--secondary-background); font-size: 16px;
 line-height: 1.5; letter-spacing: 0.02em;}
 
-
 .portfolio-filters li {list-style: none; text-decoration: none;
 }
+button {color: var(--light-brand-color); background-color: var(--secondary-background);border-radius: 4px; border: color: var(--light-accent);}
+
+button:hover, button:focus {color: var(--main-background); background-color:  var(--pressed-state-color); cursor: pointer;}
+
+
+
 .projects-list {list-style: none;}
 .project-title-headline {color: var(--dark-brand-color); font-size: 20px; font-weight: 500; line-height: 1.2; letter-spacing: 0.02em;}
 .project-category {color: var(--body-text-color); font-size: 16px; line-height: 1.5; letter-spacing: 0.02em;}
+
+
