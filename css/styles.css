@@ -139,7 +139,6 @@ background-color: var(--secondary-background);}
 /*button:hover, button:focus {color: var(--main-background); background-color:  var(--pressed-state-color); cursor: pointer;}*/
 
 
-.project-card {}
 .project-headline {color: var(--dark-brand-color); 
   font-size: 20px; 
   font-weight: 500; 
