@@ -79,11 +79,11 @@ line-height: 1.5;
 letter-spacing: 0.04em;}
 
 .baner-button:hover, 
-.baner-button:focus {color: var(--pressed-state-color);}
+.baner-button:focus {background-color: var(--pressed-state-color);}
 
 .our-service {visibility: hidden;}
 
-  .h3-list-header {color: var(--dark-brand-color); 
+  .list-header {color: var(--dark-brand-color); 
     font-weight: 500; 
     font-size: 20px; 
     line-height: 1.2; 
@@ -94,7 +94,7 @@ letter-spacing: 0.04em;}
     line-height: 1.5; 
     letter-spacing: 0.02em;}
 
-.secondary-headline {font-size: 36px; 
+.section-headline {font-size: 36px; 
   line-height: 1.11; 
   text-align: center;
   letter-spacing: 0.02em; 
