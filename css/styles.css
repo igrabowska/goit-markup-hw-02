@@ -3,10 +3,10 @@ body {color: var(--body-text-color);
 
   :root {
     --light-brand-color: #4D5AE5;
-    --dark-brand-color:#2E2F42;
-    --body-text-color:#434455;
+    --dark-brand-color: #2E2F42;
+    --body-text-color: #434455;
     --main-background: #ffffff;
-    --secondary-background:#F4F4FD; 
+    --secondary-background: #F4F4FD; 
     --light-accent: #E7E9FC;
     --pressed-state-color: #404BBF;}
 
@@ -16,7 +16,6 @@ font-size: 18px;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-/*text-decoration: none;*/
 color: var(--light-brand-color);}
 
 .link {text-decoration: none;}
@@ -24,13 +23,13 @@ color: var(--light-brand-color);}
 
 .span-logo-header {color: var(--dark-brand-color);}
 
-.logo-footer {font-family:"Raleway", sans-serif; 
+/*.logo-footer {font-family: "Raleway", sans-serif; 
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   color: var(--secondary-background);
   text-decoration: none; 
-  letter-spacing:0.03em;}
+  letter-spacing:0.03em;}*/
 
   .menu {text-decoration: none;
   color: var(--dark-brand-color);}
@@ -122,11 +121,11 @@ letter-spacing: 0.02em;}
 
 
 .filter-button {font-family: "Roboto", sans-serif;
-font-family: 500;
+font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.04em;
-color: var (--light-brand-color);
+color: var(--light-brand-color);
 background-color: var(--secondary-background);}
 
 
